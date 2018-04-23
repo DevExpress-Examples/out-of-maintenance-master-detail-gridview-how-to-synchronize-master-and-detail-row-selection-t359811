@@ -1,0 +1,14 @@
+﻿@Html.DevExpress().GridView(settings => {
+    settings.CallbackRouteValues = new { Controller = "Home", Action = "GridViewMaster" };
+    settings.Name = "gridMaster";
+    settings.KeyFieldName = "ID";
+    settings.CommandColumn.Visible = true;
+    settings.CommandColumn.ShowSelectCheckbox = true;
+    settings.SettingsDetail.ShowDetailRow = true;
+    settings.Columns.Add("ID");
+    settings.Columns.Add("Data");
+    settings.ClientSideEvents.SelectionChanged = "gridMaster_SelectionChanged";
+    settings.SetDetailRowTemplateContent(c => {
+        Html.RenderAction("GridViewDetail", new { ID = DataBinder.Eval(c.DataItem, "ID") });
+    });
+}).Bind(Model).GetHtml()
