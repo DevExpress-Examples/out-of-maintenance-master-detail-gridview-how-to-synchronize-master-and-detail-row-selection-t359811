@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/Controllers/HomeController.vb))
+* [GridViewDetail.cshtml](./CS/Views/Home/GridViewDetail.cshtml)
+* [GridViewMaster.cshtml](./CS/Views/Home/GridViewMaster.cshtml)
+* **[Index.cshtml](./CS/Views/Home/Index.cshtml)**
+<!-- default file list end -->
 # Master-Detail GridView - How to synchronize master and detail row selection 
 
 
