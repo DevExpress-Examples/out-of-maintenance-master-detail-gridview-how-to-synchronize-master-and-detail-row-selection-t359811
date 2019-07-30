@@ -8,7 +8,7 @@
 <!-- default file list end -->
 # Master-Detail GridView - How to synchronize master and detail row selection 
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t359811)**
+**[[Run Online]](https://codecentral.devexpress.com/t359811/)**
 <!-- run online end -->
 
 
